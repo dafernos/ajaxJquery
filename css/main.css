@@ -1,0 +1,42 @@
+body {
+	font: 13px Arial, Helvetica, sans-serif;
+}
+h2 { 
+	margin-bottom: 0;
+	font-size: 1.2em;
+}
+#container{
+	display: grid;
+	grid-template-columns: 70% 25%;
+	justify-content: space-around;
+}
+}
+#recurso,
+#enviar {
+	padding: .3em;
+	font-size: 1.2em;
+}
+#contenidos,
+#estados,
+#cabeceras,
+#codigo {
+	border: 2px solid #CCC;
+	background: #FAFAFA;
+	padding: 1em;
+	white-space: pre;
+}
+#contenidos {
+	min-height: 50vh;
+	max-height: 60vw;
+	overflow: scroll;
+}
+#estados {
+	min-height: 20vh;
+}
+#cabeceras {
+	min-height: 20vh;
+}
+#codigo {
+	min-height: 20vh;
+	font-size: 1.5em;
+}

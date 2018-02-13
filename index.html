@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Dario Fernandez Osuna</title>
+	<link rel="stylesheet" href="css/main.css"/>
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<form action="#">
+		URL:
+		<input type="text" size="70" />
+		<input type="button" value="Mostrar contenidos" />
+	</form>
+	<div id="container">
+		<div id="principal">
+			<h2>Contenidos del archivo:</h2>
+			<div id="contenidos"></div>
+			<h2>Cabeceras HTTP de la respuesta del servidor:</h2>
+			<div id="cabeceras"></div>
+		</div>
+
+		<div id="secundario">
+			<h2>Estados de la petición:</h2>
+			<div id="estados"></div>
+			
+			<h2>Código de estado:</h2>
+			<div id="codigo"></div>
+		</div>
+	</div>
+</body>
+</html>
